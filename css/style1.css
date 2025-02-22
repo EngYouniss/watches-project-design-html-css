@@ -1,0 +1,320 @@
+*{
+    font-family: 'Poppins', sans-serif;
+
+}
+html{
+    padding: 0;
+    margin: 0;
+height: 100vh;
+
+}
+
+body{
+background-image: url("../imgs/img/back\ \(11\).jpg");
+background-size: cover;
+ padding-left: 0;
+margin-left: 0; 
+margin: 0;
+min-width: 300px;
+width: 100%;
+min-height: 100%;
+/* على شان يبقى الفوتر في اسفل الصفحه */
+display: flex;
+flex-direction: column;
+}
+header{
+    background-color: rgba(22, 68, 93, 0.63);
+    height: 100px;
+   padding: 0;
+   margin: 0;
+margin-bottom: auto;
+   min-width: 250px;
+position: fixed;
+width: 100%;
+z-index: 1;
+
+/* display: block; */
+}
+
+/* تخلي النص الذي في السكشن في الوسط */
+article{
+
+    text-align: center;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: auto;
+}
+h2{
+padding-right: 15rem;
+color: rgb(160, 158, 181);
+font-size: 40px;
+
+
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0.8rem ;
+
+margin-left: 8rem;
+
+font-size: 20px;
+margin-top: 1em;
+margin-left: 6em;
+list-style-type: none;
+/* border: 1.5px solid brown; */
+border-radius: 30px;
+}
+nav ul li a:hover{
+    background-color: rgb(46, 207, 70);
+    color: rgb(240, 244, 244);
+    border-radius: 30px; 
+    
+    } 
+nav ul li a{
+    text-decoration: none;
+padding: 7px;
+color: rgb(253, 251, 249);
+}
+
+@media  screen and (max-width:400px) {
+    
+ header{
+    height: 90px;
+    width: 100%;
+ }
+nav  {
+    /* block تخلي النافقيشن يثبت */
+ display: block;
+ background-color: rgb(122, 114, 129);
+ position: relative;
+bottom: 2.7rem;
+line-height: 0px;
+
+}
+nav ul{
+padding-top: 20px;
+}
+nav ul li{
+    font-size: smaller;
+margin: 0.1rem;
+margin-left: -5px;
+margin-bottom: 20px;
+}
+
+article section{
+    width: 80%;
+    min-width: 250px;
+    max-width: 500px;
+margin-top: 10rem;
+}
+h2{
+padding-top: 30px;
+padding-left: 5px;
+font-size: 25px;
+
+}
+
+article section img{
+width:300px;
+min-width: 250px;
+/* display: inline-table; */
+
+
+}
+.footer{
+    background-color: rgb(122, 114, 129);
+}
+}
+
+@media (min-width:400px)  and (max-width:750px){
+    
+    header{
+       height: 90px;
+       width: 100%;
+    }
+   nav  {
+       display: block;
+   background-color: rgb(122, 114, 129);
+   position: relative;
+   bottom: 2.7rem;
+   line-height: 0px;
+   
+   }
+   nav ul{
+   position: relative;
+   padding-top: 20px;
+   }
+   nav ul li{
+   margin: 0.4rem;
+   margin-left: 1rem;
+   margin-bottom: 20px;
+   font-size: large;
+   }
+  
+   article section{
+       width: 80%;
+       min-width: 250px;
+       max-width: 500px;
+   margin-top: 10rem;
+   }
+   h2{
+   padding-top: 40px;
+   padding-left: 10px;
+   font-size: 40px;
+   
+   }
+   
+   article section img{
+   width:300px;
+   min-width: 250px;
+   
+   
+   }
+   .footer{
+    background-color: rgb(122, 114, 129);
+   }
+   }
+
+   
+@media  (min-width:750px) and (max-width:1100px){
+    
+    header{
+       height: 90px;
+       width: 100%;
+    }
+   nav  {
+       display: block;
+       background-color: rgb(122, 114, 129);
+       position: relative;
+   bottom: 2.7rem;
+   line-height: 0px;
+   
+   }
+   nav ul{
+   position: relative;
+   padding-top: 20px;
+   }
+   nav ul li{
+   margin: 0.7rem;
+   margin-left: 6rem;
+   margin-bottom: 20px;
+   font-size: large;
+   }
+   
+   
+   article section{
+       width: 80%;
+       min-width: 250px;
+       max-width: 500px;
+   margin-top: 10rem;
+   }
+   h2{
+   padding-top: 40px;
+   padding-left: 10px;
+   font-size: 40px;
+   
+   }
+   
+   article section img{
+   width:300px;
+   min-width: 250px;
+  
+   }
+    .footer{
+        background-color: rgb(122, 114, 129);
+    }
+   }
+/* parent section in home and product */
+ section{
+   display:inline-block;
+ 
+    background-color: rgb(202, 149, 252);
+    width: 400px;
+    min-width: 150px;
+    max-width: 500px;
+    height: 350px;
+    line-height: 17px;
+    border-radius: 30px;
+position: relative;  
+top: 10rem;
+}
+/* يعمل تباعد بين السكشنات بمقدار 10 بكسل ويزيح السكشنات 70 بكسل من الاعلى */
+.pruduct_m section{
+    margin: 10px;
+    margin-top: 70px;
+}
+/* sectins and pictures in pruducts  */
+ section figure  img{
+    width: 100%;
+    min-width:100px ;
+    height: 230px;
+    border-radius: 30px;
+transition: 750ms;
+}
+/* التاثير على الصورة عند الهوفر  */
+ section figure  img:hover{
+
+    transform: scale(1.1);
+}
+/* يخلي النص الذي مع الصورة في الوسط */
+figure h1{
+text-align: center;
+}
+/* يبعد الخط الذي تحت الكلمة */
+figcaption h1 a{
+    text-decoration: none;
+}
+
+article form{
+    width: 100%;
+    height: 100%;
+border: 2px solid burlywood;
+border-radius: 25px;
+    text-align: center;
+    background-color: rgba(0, 0, 255, 0.434);
+   display: none;
+}
+/* لون الباراقراف في صفحة اباوت  */
+#abou{
+    color: rgb(8, 116, 116);
+}
+fieldset{
+    border-radius: 25px;
+}
+/* عناصر الادخال  */
+input{
+    margin-top:1em ;
+    border-radius: 30px ;
+}
+footer{
+    /* ع شان يخليه في اسفل الصفحة */
+    margin-top: auto;
+    background-color: rgba(22, 68, 93, 0.63);
+width: 100%;
+    height: 100px;
+    min-width: 250px;
+    /* يخلي النص الذي في الفوتر في الوسط */
+    text-align: center;
+    margin-top: 15rem;
+  
+
+}
+
+/* يعمل تباعد بين السكشنات بمقدار 10 بكسل ويزيح السكشنات 70 بكسل من الاعلى */
+.pruduct_m section{
+    margin: 10px;
+    margin-top: 70px;
+}
+.p_footer{
+color: rgb(180, 177, 201);
+padding-top: 30px;
+font-size: large;
+}
+
+
+

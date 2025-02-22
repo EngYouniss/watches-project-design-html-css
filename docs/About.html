@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style1.css">
+
+</head>
+<body>
+   
+      <header>
+        <nav>
+            <h2>Watch</h2>
+ 
+        <ul>
+
+          <li><a href="../index.html" target="_blank">Home</a></li>
+          <li><a href="../docs/About.html" target="_blank">About</a></li>
+          <li><a href="../docs/coment.html" target="_blank">Coment</a> </li>
+          <li><a href="../docs/product.html" target="_blank">Product</a></li> 
+    
+        </ul>
+    </nav></header>
+      <article>
+
+        <section ><p id="abou">  مرحبًا بك في متجرنا الراقي عبر الإنترنت للساعات، حيث يصبح الزمن فنًا. ادخل إلى عالم الأناقة والدقة وأنت تستكشف مجموعتنا المختارة بعناية من الساعات. مع كل نقرة، انغمس في سحر الفخامة والحرفية.
+          موقعنا على الويب مزيج رائع من الأناقة والتطور، مصمم لجذب الانتباه والإلهام. من التصميم الأنيق والحديث إلى التنقل السلس، تم صنع كل جانب بعناية لتعزيز تجربتك في التسوق.
+          اكتشف مزيجًا متناغمًا من التقليد والابتكار بينما تتصفح مجموعتنا المتنوعة من الماركات والأنماط. سواء كنت تبحث عن ساعة كلاسيكية تنبثق منها الأناقة الخالدة أو قطعة جريئة تتجاوز الحدود، لدينا الساعة المثالية لتكمل أسلوبك الفريد.
+          دعنا نكون دليلك في هذه المغامرة الساعية، حيث لا يتم قياس الزمن فحسب بل يحتفى به. اختبر جمال ودقة ساعاتنا، ودعها تصبح امتدادًا لأسلوبك الشخصي. مرحبًا بك في عالمنا من الأناقة والتطور - حيث يصبح الزمن حقًا استثنائيًا.
+          
+          </p>
+          <form action="server" method="post" id="formm" >
+          <fieldset><legend>login</legend>
+            <label for="name">Name:</label>
+      <input  id="name" type="text" placeholder="name" required name="name" autofocus maxlength="24">
+      <br>
+      <label for="num">Number:</label>
+      <input id="num" type="number" placeholder=" number" required name="number" minlength="9" maxlength="9">
+      <br>
+      <label for="email">Email:</label>
+      <input id="email" type="email" placeholder="@email" required  name="email">
+      <br>
+      
+      <label for="password">password:</label>
+      <input id="password" type="password" placeholder="password" required  name="password" minlength="8" maxlength="32">
+      <br>
+      <!-- تغير اسم الاينبتvalue -->
+      <input type="submit" class="sub" value="submit" >
+      <input type="reset" value="reset">
+      <br>
+      <input id="check" type="checkbox" name="checkbox" required >
+      <label >you accept about everything</label>
+          </fieldset>
+
+
+          </form>
+
+          <button type="button" onclick="document.getElementById('formm').style.display='block'"> sign in</button>
+          <button type="button" onclick="document.getElementById('formm').style.display='none'" >hide</button>
+
+          </section>
+         
+          
+ </article>
+ <script src="../js/js.js"></script>
+
+<footer class="footer" >
+<p class="p_footer"> copyright  &copy;  younis tallan 
+</p>
+   </footer> 
+      
+</body>
+
+</html>

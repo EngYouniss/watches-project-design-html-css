@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/comment.css">
+    <link rel="stylesheet" href="../css/style1.css">
+
+
+</head>
+<body>
+  <header>
+    <nav>
+        <h2>Watch</h2>
+
+    <ul>
+
+      <li><a href="../index.html" target="_blank">Home</a></li>
+      <li><a href="about.html" target="_blank">About</a></li>
+      <li><a href="coment.html" target="_blank">Coment</a> </li>
+      <li><a href="product.html" target="_blank">Product</a></li> 
+
+    </ul>
+</nav></header>
+
+
+<div id="comments">
+
+  <div class="comment">
+      <img src="../imgs/logo/boy.jpg" alt="" width="50px" height="50px">
+      <span><strong>Ali </strong></span>
+      <hr>
+      <p id="par">I like this watches ,but it's expensive  </p>
+      <br>
+      <div class="approval">
+          <p class="disapproval-counter" id="disapproval-counter-1">0</p>
+          <button class="disapproval-button" onclick="disapproveComment(1)"><img class="like"
+                  src="../imgs/Logo2/like.png" alt="" width="15px" height="15px"></button>
+
+          <p class="approval-counter" id="approval-counter-1">0</p>
+          <button class="approval-button" onclick="approveComment(1)"><img class="like"
+                  src="../imgs/Logo2/dislike.png" alt="" width="15px" height="15px"></button>
+
+      </div>
+
+  </div>
+  <!-- <hr style="height: 1px; background-color: black; margin-left: 150px;"> -->
+
+
+
+
+  <div class="comment">
+      <img src="../imgs/logo/boy.jpg" alt="" width="60px" height="60px">
+      <span><strong>Ahmed</strong></span>
+      <hr>
+      <p id="par">it's amazing watches </p>
+      <br>
+      <div class="approval">
+          <p class="disapproval-counter" id="disapproval-counter-2">0</p>
+          <button class="disapproval-button" onclick="disapproveComment(2)"><img class="like"
+                  src="../imgs/Logo2/like.png" alt="" width="15px" height="15px"></button>
+
+          <p class="approval-counter" id="approval-counter-2">0</p>
+          <button class="approval-button" onclick="approveComment(2)"><img class="like"
+                  src="../imgs/Logo2/dislike.png" alt="" width="15px" height="15px"></button>
+
+      </div>
+  </div>
+  <!-- تخلي لون التسطير اسود -->
+  <!-- <hr style="height: 1px; background-color: black; margin-left: 150px;"> -->
+
+  <div class="comment">
+      <img src="../imgs/logo/girl.png" alt="" width="60px" height="60px">
+
+      <span><strong>Amal</strong></span>
+      <hr>
+      <br>
+      <p id="par">Greet </p>
+      <br>
+      <div class="approval">
+          <p class="disapproval-counter" id="disapproval-counter-3">0</p>
+          <button class="disapproval-button" onclick="disapproveComment(3)"><img class="like"
+                  src="../imgs/Logo2/like.png" alt="" width="15px" height="15px"></button>
+
+          <p class="approval-counter" id="approval-counter-3">0</p>
+          <button class="approval-button" onclick="approveComment(3)"><img class="like"
+                  src="../imgs/Logo2/dislike.png" alt="" width="15px" height="15px"></button>
+
+      </div>
+
+  </div>
+  <div class="comment">
+      <img src="../imgs/logo/boy2.png" alt="" width="60px" height="60px">
+      <span><strong>Abdulrahman</strong></span>
+      <hr>
+      <p id="par">very goood</p>
+      <br>
+      <div class="approval">
+          <p class="disapproval-counter" id="disapproval-counter-4">0</p>
+          <button class="disapproval-button" onclick="disapproveComment(4)"><img class="like"
+                  src="../imgs/Logo2/like.png" alt="" width="15px" height="15px"></button>
+
+          <p class="approval-counter" id="approval-counter-4">0</p>
+          <button class="approval-button" onclick="approveComment(4)"><img class="like"
+                  src="../imgs/Logo2/dislike.png" alt="" width="15px" height="15px"></button>
+
+      </div>
+
+  </div>.
+  <!-- <hr style="height: 1px; background-color: black; margin-left: 150px;"> -->
+
+  <div class="comment">
+      <img src="../imgs/logo/boy3.png" alt="" width="60px" height="60px">
+      <span><strong>Helmi</strong></span>
+      <hr>
+      <p id="par">A nice watch with you</p>
+      <br>
+      <div class="approval">
+          <p class="disapproval-counter" id="disapproval-counter-5">0</p>
+          <button class="disapproval-button" onclick="disapproveComment(5)">..<img class="like"
+                  src="../imgs/Logo2/like.png" alt="" width="15px" height="15px"></button>
+
+          <p class="approval-counter" id="approval-counter-5">0</p>
+          <button class="approval-button" onclick="approveComment(5)"><img class="like"
+                  src="../imgs/Logo2/dislike.png" alt="" width="15px" height="15px"></button>
+
+      </div>
+  </div>
+  <!-- <hr style="height: 1px; background-color: black; margin-left: 150px;"> -->
+
+  <div class="comment">
+      <img src="../imgs/logo/girl.png" alt="" width="60px" height="60px">
+      <span><strong>Arwa</strong></span>
+      <hr>
+      <p id="par">Your products are the best in the internet</p>
+      <br>
+      <div class="approval">
+          <p class="disapproval-counter" id="disapproval-counter-6">0</p>
+          <button class="disapproval-button" onclick="disapproveComment(6)"><img class="like"
+                  src="../imgs/Logo2/like.png" alt="" width="15px" height="15px"></button>
+
+          <p class="approval-counter" id="approval-counter-6">0</p>
+          <button class="approval-button" onclick="approveComment(6)"><img class="like"
+                  src="../imgs/Logo2/dislike.png" alt="" width="15px" height="15px"></button>
+
+      </div>
+  </div>
+<script>
+
+
+function approveComment(commentId) {
+            var approvalCounter = document.getElementById("approval-counter-" + commentId);
+            var count = parseInt(approvalCounter.innerText);
+            count++;
+            approvalCounter.innerText = count;
+        }
+        
+        
+        function disapproveComment(commentId) {
+            var disapprovalCounter = document.getElementById("disapproval-counter-" + commentId);
+            var count = parseInt(disapprovalCounter.innerText);
+            count++;
+            disapprovalCounter.innerText = count;
+        }
+    
+        
+
+</script>
+      
+      <footer class="footer">
+        <p class="p_footer"> copyright &copy;  younis tallan 
+        </p>   
+           </footer>  
+</body>
+
+</html>
