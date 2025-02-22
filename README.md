@@ -1,7 +1,7 @@
 # watches-project-design-html-css
 # ⌚ Watches Store - HTML & CSS &Javascript 
 
-🛍️ **Watches Store** is a sleek and modern e-commerce website for  watches, designed using **HTML & CSS** to provide a smooth and visually appealing user experience.  
+🛍️ **Watches Store** is a sleek and modern e-commerce website for  watches, designed using **HTML & CSS & Javascript** to provide a smooth and visually appealing user experience.  
 
 ## 🚀 Features  
 ✅ **Responsive design** that works on all devices 📱💻  
